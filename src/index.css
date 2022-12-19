@@ -1,0 +1,50 @@
+.container {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    padding-top: 0;
+    margin-top: 0;
+    
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.image {
+    background-image: url(./Img/selfie.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 600px;
+    margin: 0;
+    background-color: white;
+}
+
+
+.my-name {
+    margin-bottom: 0;
+}
+.info-title {
+    margin-top: 0;
+    color: orangered;
+}
+
+.email-info {
+    border-radius: 4px;
+   padding: 8px;
+    width: 50%;
+    border: none;
+    font-size: 15px;
+    color: black;
+    background-color: white;
+}
+.email-info:hover {
+    color: white;
+    background-color: orangered;
+}
+
+
